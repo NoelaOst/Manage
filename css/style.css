@@ -183,12 +183,15 @@ svg {
 
 /* General Styling */
 
+html, body{
+overflow-x: hidden;
+}
+
 body{
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--dark-blue);
   text-align: center;
-  overflow-x: hidden;
 }
 
 .container{
