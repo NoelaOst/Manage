@@ -302,14 +302,12 @@ p{
     position: absolute;
     top: -200px;
     right: -50px;
-    z-index: -10;
   }
 
   .background-blob-lower{
     position: absolute;
     top: 1200px;
     left: -600px;
-    z-index: -10;
   }
 }
 
