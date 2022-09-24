@@ -193,7 +193,7 @@ body{
   color: var(--dark-blue);
   text-align: center;
   overflow-x: hidden !important;
-  background: url(../images/bg-tablet-pattern.svg), url(../images/bg-tablet-pattern.svg);
+  background: url(../images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
   background-size: 814px, 414px;
   background-position: 50px -350px, 300px 600px;
