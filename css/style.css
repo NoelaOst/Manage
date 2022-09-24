@@ -192,6 +192,34 @@ body{
   font-family: var(--ff-body);
   color: var(--dark-blue);
   text-align: center;
+  overflow-x: hidden !important;
+  background-image: url(../images/bg-tablet-pattern.svg), url(../images/bg-tablet-pattern.svg) ;
+  background-repeat: no-repeat;
+  background-size: 814px, 414px;
+  background-position: 50px -350px, 300px 600px;
+
+}
+
+@media (min-width: 34em) {
+  body{
+    background-position: 150px -150px, 500px 700px;
+  }
+
+}
+
+@media (min-width: 52em){
+  body{
+    background-position: 550px -150px, -600px 1100px;
+    background-size: 814px, 814px;
+
+  }
+
+}
+@media (min-width: 62em){
+  body{
+    background-position: 850px -150px, -600px 1200px;
+  }
+
 }
 
 .container{
@@ -273,47 +301,6 @@ p{
   opacity: .5;
   line-height: 200%;
 }
-
-
-/* Background blobs */
-
-
-.background-blob-upper{
-  position: absolute;
-  top: -50px;
-  right: -100px;
-  z-index: -10;
-  overflow: hidden;
-
-}
-
-.background-blob-lower{
-  position: absolute;
-  top: 600px;
-  right: -250px;
-  z-index: -10;
-}
-  
-@media (min-width: 34em){
-  .background-blob-lower{
-    right: -550px;
-  }
-}
-
-@media (min-width: 52em){
-  .background-blob-upper{
-    position: absolute;
-    top: -200px;
-    right: -50px;
-  }
-
-  .background-blob-lower{
-    position: absolute;
-    top: 1200px;
-    left: -600px;
-  }
-}
-
 
 
 /* Buttons */
