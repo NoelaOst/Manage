@@ -171,7 +171,7 @@ svg {
   margin-top: var(--size-600);
 }
 .margin-top-300{
-  margin-top: var(--size-700);;
+  margin-top: var(--size-700);
 }
 .margin-top-400{
   margin-top: var(--size-900);
@@ -192,8 +192,8 @@ body{
   font-family: var(--ff-body);
   color: var(--dark-blue);
   text-align: center;
-  overflow-x: hidden !important;
-  background: url(../images/bg-tablet-pattern.svg), url(../images/bg-tablet-pattern.svg);
+  overflow-x: hidden;
+  background-image: url(../images/bg-tablet-pattern.svg), url(../images/bg-tablet-pattern.svg) !important;
   background-repeat: no-repeat;
   background-size: 814px, 414px;
   background-position: 50px -350px, 300px 600px;
@@ -224,7 +224,7 @@ body{
 
 .container{
   padding: 0 var(--size-100);
-  margin-inline: auto; /*this is centering containers*/
+  margin-inline: auto;
 }
 
 .even-columns{
