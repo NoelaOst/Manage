@@ -7,7 +7,7 @@ Frontend Mentor help's you improve coding skills by building realistic projects.
 
 
 ## Demo
-Click to [Preview site](https://noelaost.github.io/Manage-Landing-Page/)
+Click to [Preview site](https://noelaost.github.io/Manage-Landing-Page/ target="_blank")
 ## Screenshots
 
 ![App Screenshot](https://user-images.githubusercontent.com/110282131/192249653-ccea4bf5-daba-4917-add9-f39cd53f49d7.png)
